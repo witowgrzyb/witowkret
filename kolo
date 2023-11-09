@@ -1,0 +1,123 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{empheq}
+\usepackage{enumitem}
+\usepackage[polish]{babel}
+
+\title{Kolokwium 10.11.2023}
+\author{Imie Naziwsko}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\centering
+
+\vspace{12pt}
+
+\section{Tekst}
+W tym dokumencie jest pięć części, odpowiadających różnym tematom związanym z \LaTeX. {\large W pierwszej części chodzi o rozmiar oraz typ czcionki.} {\Large {\textbf{W drugiej o wzorach, potem macierzy, spisy i tabele.}}
+
+\section{Wzory}
+\normalsize Niech
+
+$\Phi = \sum_{k=1}^5 2k^2.$ \\
+Przypominamy, że to oznacza, że
+$\Phi = 110\sum_{k=1}^5 2k^2=2\cdot1^2+2\cdot2^2+2\cdot3^2+2
+\cdot4^2+2\cdot5^2 \qquad(1)$
+Ze wzoru (1) wynika, że $\Phi = 110$. Oznaczamy \\
+$\phi = \sqrt[2]{\Phi}$ \\
+Wtedy $\varphi = \sqrt{\sum_{k=1}^5 2k^2} = \sqrt[2]{110} = \sqrt{110}$
+
+\section{Macierzy}
+\normalsize Macierzą nazywa się układ liczb, symboli lub wyrażeń, zapisanych w postaci prostokątnej tablicy. Na przykład,
+\begin{align*}
+\textbf{W} & = \begin{pmatrix}
+        2 & 4 \\
+        3 & 7 \\
+      \end{pmatrix}
+Oraz~\textbf{Q} = \begin{pmatrix}
+        -5 & -4 \\
+        200 & -7 \\
+      \end{pmatrix}
+\end{align*}
+Macierzy o tych samych wymiarach możemy dodawać do siebie,
+\begin{align*}
+W + Q = \begin{pmatrix}
+		-3 & 0 \\
+		203 & 0 \\
+	    \end{pmatrix}
+\end{align*}
+skąd wynika, że \emph{wyznacznik} nowej macierzy równa się \textbf{0}: \\
+\textit{det}(W+Q) = 0 \\
+\vspace{12pt}
+Układ równań
+\vspace{12pt}
+\begin{equation}
+\begin{cases}
+2x+y=3\\
+x+y=2
+\end{cases}
+\end{equation}
+\vspace{12pt}
+\begin{align*}
+\text{też~można~zapisać~w~postaci~macierzy:} \begin{pmatrix}
+  2 & 1 \\
+  1 & 1 \\
+\end{pmatrix}
+\begin{pmatrix}
+  x \\
+  z \\
+\end{pmatrix}
+\text{=} \begin{pmatrix}
+  3 \\
+  2 \\
+\end{pmatrix}
+\end{align*}
+Rozwiązaniem tego równania będą x=z=1.
+
+\section{Spis}
+Lista przedmiotów
+\begin{enumerate}[label=\Alph*]
+\item
+Matematyka
+\item
+Języki
+\begin{enumerate}[label=\alph*]
+\item polski
+\item angielski
+\end{enumerate}
+\item Historia
+\item Biologia
+\end{enumerate}
+
+\section{Tabela}
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|c|c|c|}
+    \hline
+    witow & to & grzyb \\
+    \hline
+    1 & 256 & 3 \\
+    4 & 345 & 6 \\
+    7 & 877 & 9 \\
+    \hline
+  \end{tabular}
+\vspace{12pt}
+\caption{witow to grzyb}
+\end{table}
+
+\section{Zdjecie z pdfa}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.5\textwidth]{C:/Users/rzepek/Desktop/aaaaa.pdf}
+  \caption{Opis zdjęcia.}
+\end{figure}
+
+\end{document}
