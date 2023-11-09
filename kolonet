@@ -1,0 +1,114 @@
+\documentclass[a4paper, 12pt]{amsart}   
+
+\usepackage[T1]{fontenc}
+\usepackage{enumitem}
+\usepackage[polish]{babel}
+
+       
+\author[I. Nazwisko]{Imie Nazwisko}
+
+\address{UWM w Olsztynie} 
+\email{NumerAlbumu@student.uwm.edu.pl}
+
+\title[Kolokwium]{Kolokwium 23.11.2021. Wariant 1}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\section{Tekst}
+{\Huge W tym dokumencie sÄ {\textbf{piÄc}} czÄĹci, odpowiadajÄcych roĹźnym tematom, zwiÄzanym z \LaTeX}. \texttt{W pierwszej czÄĹci chodzi o rozmiar oraz typ czcionki}.  \textsl{W drugiej -- o wzorach, potem macierzy, spisy i tabele}. 
+\section{Wzory}
+Niech $\Phi=\sum\limits_{k=1}^{5} 2k^2$. Przypominamy, ze to oznacza, ze
+\begin{equation}\label{wzor}
+\begin{split}
+\sum\limits_{k=1}^{5} 2k^2&=2\cdot 1^2+2\cdot 2^2+2\cdot 3^2+2\cdot 4^2+2\cdot 5^2\\
+&=2+8+18+32+50\\
+&=110
+\end{split}
+\end{equation}
+Ze wzoru \eqref{wzor} wynika, ze $\Phi=110$.  Oznaczymy $\varphi=\sqrt[2] \Phi$. Wtedy $\varphi=\sqrt {\sum_{k=1}^{5} 2k^2}=\sqrt[2]{110}=\sqrt{110}$.
+
+\section{Macierzy}
+\textit{Macierz\k{a}} nazywa siÄ ukĹad liczb, symboli lub wyraĹźeĹ, zapisanych w postaci prostokÄtnej tablicy. Na przykĹad, 
+\begin{equation*}
+A=
+\left(\begin{array}{cc}
+2&4 \\
+3&5
+\end{array}\right)\mbox{ oraz }
+B=
+\left(\begin{array}{cc}
+-2&-4 \\
+-3&100
+\end{array}\right).
+\end{equation*}
+Macierzy o tych samych wymiarach moĹźemy dodawaÄ do siebie, 
+\begin{equation*}
+A+B=
+\left(\begin{array}{cc}
+0&0\\
+0&105
+\end{array}\right)
+\end{equation*}
+skÄd wynika, ze \underline{wyznacznik} nowej macierzy rĂłwna siÄ 0: 
+\begin{equation}
+\det (A+B)=0.
+\end{equation}
+
+UkĹad rĂłwnaĹ 
+\begin{equation}
+\begin{cases}
+2x+y=3\\
+x+y=2
+\end{cases}
+\end{equation}
+tez moĹźna zapisaÄ w postaci macierzy: $\left(\begin{array}{cc}
+2&1\\
+1&1
+\end{array}\right)\left(\begin{array}{c}
+x\\
+y
+\end{array}\right)=\left(\begin{array}{c}
+3\\
+2
+\end{array}\right)$. RozwiÄzaniem tego rĂłwnania bÄdÄ $x=y=1$.
+
+
+
+\section{Spis}
+Lista przedmiotĂłw:
+\begin{enumerate}[label=\{\Alph*\}]
+\item
+Matematyka
+\item
+JÄzyki:
+\begin{enumerate}[label=\{\alph*\}]
+ \item polski
+ \item angielski
+\end{enumerate}
+\item Historia  
+\item Biologia
+\end{enumerate}
+\section{Tabela}
+\begin{figure}[h]
+\begin{tabular}{||c|c|c||}
+\hline
+No&\textbf{Przedmiot}&\textbf{IloĹÄ uczni}\\
+\hline
+1&Matematyka&24\\
+\hline
+2&JÄzyk angielski&20\\
+\hline
+3&JÄzyk polski&30\\
+\hline
+4&Historia&\textit{brak}\\
+\hline
+5&Biologia&15\\
+\hline
+\end{tabular}
+\caption{IloĹÄ uczni na przedmiotach}
+\end{figure}
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
