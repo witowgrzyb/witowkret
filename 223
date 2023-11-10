@@ -22,7 +22,7 @@
 
 W tej sekcji numerowanej testujemy tabele. Wykonaj poniższą tabelkę. Jest ona na dole strony. Kolumny poza pierwszą są po lewej. Pierwsza kolumna jest 
 wyśrodkowana. Sama tabela też jest wyśrodkowana.
-\par To jest odwołanie do tabeli \ref{tab:tabela1}.
+\par To jest odwołanie do tabeli \pageref{tab:tabela1}.
 
 \section{Zdjęcia}
 \noindent Tutaj testujemy zdjęcia. Mamy parę tekstu lorem ipsum. 
@@ -31,7 +31,7 @@ wyśrodkowana. Sama tabela też jest wyśrodkowana.
 \begin{table}[h]
 	\centering 
 	\label{tab:tabela1}
-	\begin{tabular}{|l|l|l|l|}
+	\begin{tabular}{|c|l|l|l|}
 		\hline
 		\textbf{Lp.} & \textbf{Państwo} & \textbf{Kontynent} & \textbf{Stolica} \\
 		\hline
@@ -87,7 +87,7 @@ Nulla vulputate bibendum lacinia. Aenean semper lacus vel tristique dignissim. A
 
 \section{Lista numerowana i punktowana}
 
-To przepis na dane \footnote{$Opracowano~na~podstawie~https://www.kwestiasamku.com/zielony_srodek/salatki \\
+To przepis na dane\footnote{$Opracowano~na~podstawie~https://www.kwestiasamku.com/zielony_srodek/salatki \\
 _jablka/jablka_kruszonka/przepis.html.$}. Zwróć uwagę na punktowy i numerację.
 
 \begin{itemize}
@@ -131,7 +131,7 @@ _jablka/jablka_kruszonka/przepis.html.$}. Zwróć uwagę na punktowy i numeracj�
 Tutaj testujemy wzory matematyczne. Wszystkie są wyśrodkowane w oddziel-
 nym wierszu. Zwróć uwagę, że niektóre posiadają numery.
 
-$\int \sin^n(cx) \, dx = -\frac{\sin^{n-1}(cx) \cos(cx)}{n} + \frac{n-1}{n} \int \sin^{n-2}(cx) \, dx$ \label{eq:1}
+\label{eg:1} $\int \sin^n(cx) \, dx = -\frac{\sin^{n-1}(cx) \cos(cx)}{n} + \frac{n-1}{n} \int \sin^{n-2}(cx) \, dx$ 
 
 \newpage
 
@@ -152,7 +152,7 @@ R^2 = \begin{pmatrix}
 
 \[ T = \frac{\sum_{i=1}^{n} \left| \frac{M_i - m_i}{m_i} \right|}{N} \]
 
-To jest odwołanie do równania \eqref{eq:1}.
+To jest odwołanie do równania \eqref{eg:1}.
 
 \tableofcontents
 
