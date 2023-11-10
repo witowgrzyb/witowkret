@@ -1,0 +1,159 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{empheq}
+\usepackage{enumitem}
+\usepackage[polish]{babel}
+
+\title{Kolokwium \LaTeX- rząd P003}
+\author{Imię Nazwisko}
+\date{10 Listopada 2023}
+
+\begin{document}
+
+\maketitle
+
+\textbf{\Large{Wprowadzanie}} \\
+
+\noindent To jest wprowadzanie objaśniające nieco kolokwium. Zwróć uwagę, że jesteśmy w sekcji nienumerowanej. W sekcji tytułowej wpisz swoje prawdziwe imię i nazwisko. Jako datę wpisz ręcznie datę pisania kolokwium. W tytule znajduje się specjalny symbol. Ustaw czcionkę na 10 pkt, papier jako A4, dołącz pakiet polski. Spis treści jest na końcu. Wszystkie odsyłacze powinny być klikalne.
+
+\section{Tabele}
+
+W tej sekcji numerowanej testujemy tabele. Wykonaj poniższą tabelkę. Jest ona na dole strony. Kolumny poza pierwszą są po lewej. Pierwsza kolumna jest 
+wyśrodkowana. Sama tabela też jest wyśrodkowana.
+\par To jest odwołanie do tabeli \ref{tab:tabela1}.
+
+\section{Zdjęcia}
+\noindent Tutaj testujemy zdjęcia. Mamy parę tekstu lorem ipsum. 
+\par Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis maurisnec nisl scelerisque ultrices nec vitae lacus. Nullam porta tortor nec consectetur faucibus. Nam nulla quam, bibendum a felis porta, suscipit sodales lectus. Morbi semper consectetur libero quis ultrices. Pellentesque id ultrices orci, ut cursus arcu. Aenean ut urna sit amet ex tincidunt eleifend. Praesent non pulvinararcu. Donec ac dignissim urna. Etiam mattis dictum tempor. In sagittis, nisi quis vehicula accumsan, est sapien pharetra libero, sit amet varius metus nisl
+
+\begin{table}[h]
+	\centering 
+	\label{tab:tabela1}
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		\textbf{Lp.} & \textbf{Państwo} & \textbf{Kontynent} & \textbf{Stolica} \\
+		\hline
+		1 & Afganistan & Azja & Kabul \\
+		\hline
+		2 & Albania & Europa & Tirana \\
+		\hline
+		3 & Algieria & Afryka & Algier \\
+		\hline
+		4 & Andora & Europa & Andora \\
+		\hline
+		5 & Angola & Afryka & Luanda \\
+		\hline
+		6 & Antigua i Barbuda & Ameryka Północna & Saint John's \\
+		\hline
+		7 & Arabia Saudyjska & Azja & Rijad \\
+		\hline
+		8 & Argentyna & Ameryka Południowa & Buenos Aires \\ % Poprawiono kontynent
+		\hline
+	\end{tabular}
+	\caption{}
+\end{table}
+
+\noindent pellentesque dolor. Donec volutpat ipsum sit amet effcitur dictum. Cras lacinia urna eu tempus lacinia. Nunc lacinia, nunc sed cursus placerat, odio nune lacina ligula, nec rhoncus eros purus et quarn. Quisque finibus purus dui, sit amet scelersique tellus gravida ut. Integer sit amet aliquam nunc.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=35pt]{C:/Users/rzepek/Desktop/png2pdf.pdf}
+	\caption{Ten rysunek jest w biężacym miejscu tekstu. Szerokość to 35 punktów.}
+	\label{fig:rys1}
+\end{figure}
+
+\par Morbi hendreit veulputate nibh elementum lacina. Class aptent taciti so-
+ciosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent
+finibus ullamcorper iaculis. Vestibulum est sapien, vehicula a massa a, pellen-
+tesque consectetur arcu. Mauris scelerisque arcu id urna finibus eleifend. Ut
+rhoncus vitae lacus sit amet porttitor. Donec ut mauris sitamet diam malesu-
+ada condimentum. Quisque eget elit fermentum, ornare elitnon, aliquam orci.
+Aenean bibendum fengiat nunc, sit amet tincidunt nibh varius ac.
+\par Nulla volutpat at augue ac pellentesque. Duis commodo sollicitudin vulpu-
+tate. Morbi eget vulputate tortor, id volutpat elit. Proin egestas, dui nec cursus
+porttitor, diam est pellentesque enim, vel egestas tellus lacus sed tortor. Donec
+a nunc condimentum, auctor neque vel, inculis enim. Ut aliquam sem in magna
+Nulla vulputate bibendum lacinia. Aenean semper lacus vel tristique dignissim. Aliquam vel mi laoreet, gravida arcu et, feugiat arcu. Nullam non ornare metus. Phasellus feugiat malesuada venenatis. Vestibulum pellentesque velit finibus porta bibendum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam ac felis tortor. Proin vel lacus euismod, blandit nunc ac, imperdiet nisi. Fusce vel augue nec dui elementum pretium et vel urna. Nam in fermentum massa. 
+\par Donec ut enim nec nibh congue efficitur. Praesent sagittis luctus mattis. Curabitur egestas blandit egestas. Donec dapibus diam in enim interdum varius. Donec in felis in ante posuere suscipit. Suspendisse sit amet urna vel ante lobortis finibus ac non enim. Cras dignissim non tellus in auctor. Etiam pulvinar eu elit ut tempus. In fermentum ullamcorper volutpat. Morbi hendrerit sagittis porttitor. Proin sed purus in orci vehicula blandit a sit amet felis. Nulla risus lectus, pellentesque et elit quis, dignissim accumsan tortor. Suspendisse quis fermentum nunc, vitae finibus lectus. Sed faucibus venenatis interdum. Etiam urna metus, vestibulum eget egestas vel, rhoncus quis nisl.  \par Integer ultricies nec lacus gravida auctor. Ut congue diam ut ligula tristique hendrerit.Mauris eget enim vel ante pretium pulvinar at ac elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque a tortor sed tellus rutrum pharetra. Morbi ut tristique lectus. Vestibulum a elit luctus, varius dui a, lacinia orci. Suspendisse leo enim, gravida sit amet eros eget, venenatis vulputate arcu. Nunc vel sapien iaculis, egestas lorem iaculis, porttitor nulla. Nunc fermentum a ante in ultricies. Sed dolor purus, suscipit eu pretium at, blandit eget tortor. Mauris eget enim vel ante pretium pulvinar at ac elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque a tortor sed tellus rutrum pharetra. Morbi ut tristique lectus. Vestibulum a elit luctus, varius dui a, lacinia orci. 
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[height=30pt]{C:/Users/rzepek/Desktop/png2pdf.pdf}
+	\caption{Ten rysunek jest na górze strony. Wysokość to 30 punktów.}
+	\label{fig:rys2}
+\end{figure}
+
+\section{Lista numerowana i punktowana}
+
+To przepis na dane \footnote{$Opracowano~na~podstawie~https://www.kwestiasamku.com/zielony_srodek/salatki \\
+_jablka/jablka_kruszonka/przepis.html.$}. Zwróć uwagę na punktowy i numerację.
+
+\begin{itemize}
+	\item Składniki - danie
+	\begin{enumerate}[label=\arabic*-]
+		\item 500 g filetów białej ryby (np. drosz, morszczuk, mintaj)
+		\item 1,5 kg jabłek (najlepiej renet lub inneych dobrych do pieczenia)
+		\item 2 łyżki rodzynek
+		\item 2 łyżki rumu
+		\item 1/2 łyżeczki milonego cynamonu
+	\end{enumerate}
+	\item Składniki - sos
+	\begin{enumerate}[label=\Alph*:]
+		\item 90 g masła
+		\item 125 g mąki
+		\item 80 g cukru pudru (lub drobnego brązowego)
+		\item szczypta soli
+	\end{enumerate}
+	\item Przygotowanie
+	\begin{enumerate}
+		\setcounter{enumi}{2}
+		\item Rodzynki włożyć do miseczki, zalać rumem, wymieszać i odstawić.
+		Przygotować kruszonkę: na płaski talerz wyłożyć masło, mąkę cukier
+		i sól.Kroić wszystkie składniki nożem na jak najmniejsze kawałeczki,
+		aż drobinki masła pokryją się z mąką z cukrem.
+		\setcounter{enumi}{4}
+		\item Piekarnik nagrzać do 180 stopni C. Naczynie żaroodporne (ok. 20x30
+		cm) grubo wysmarować masłem. Jabłka obrać, pokroić na ćwiartki i
+		wykroić gniazda nasienne. Każdą ćwiartkę jabłka pokroić na 4 cząstki
+		i rozłożyc w naczyniu.
+		\setcounter{enumi}{6}
+		\item Rodzynki osączyć, ułożyć na jabłkach i oprószyć cynamonem. Owoce
+		równomiernie posypać kruszonką. Wstawić do nagrzanego piekarnika
+		i piec przez około 35 - 40 minut lub do czasu aż kruszonka będzie
+		dobrze zrumieniona i złocista.
+	\end{enumerate}
+\end{itemize}
+
+\section{Wzory matematyczne}
+
+Tutaj testujemy wzory matematyczne. Wszystkie są wyśrodkowane w oddziel-
+nym wierszu. Zwróć uwagę, że niektóre posiadają numery.
+
+$\int \sin^n(cx) \, dx = -\frac{\sin^{n-1}(cx) \cos(cx)}{n} + \frac{n-1}{n} \int \sin^{n-2}(cx) \, dx$ \label{eq:1}
+
+\newpage
+
+\begin{align*}
+R^2 = \begin{pmatrix}
+	c & s \\
+\end{pmatrix}
+\begin{pmatrix}
+	1 & 0 \\
+	0 & 1 \\
+\end{pmatrix}
+\begin{pmatrix}
+	c \\
+	s \\
+\end{pmatrix}
+= c^2 + s^2
+\end{align*}
+
+\[ T = \frac{\sum_{i=1}^{n} \left| \frac{M_i - m_i}{m_i} \right|}{N} \]
+
+To jest odwołanie do równania \eqref{eq:1}.
+
+\tableofcontents
+
+\end{document}
